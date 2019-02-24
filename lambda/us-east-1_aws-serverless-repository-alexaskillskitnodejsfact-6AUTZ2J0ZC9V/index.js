@@ -2,6 +2,8 @@
 /* eslint-disable  no-console */
 
 const Alexa = require('ask-sdk');
+var https = require('https');
+var requestlib = require('request');
 
 const SKILL_NAME = 'World Bank Facts';
 const GET_FACT_MESSAGE = 'Here\'s your fact: ';
@@ -10,6 +12,7 @@ const HELP_REPROMPT = 'What can I help you with?';
 const FALLBACK_MESSAGE = 'The World Bank Facts skill can\'t help you with that.  It can help you discover facts about World Bank if you say tell me a World Bank fact. What can I help you with?';
 const FALLBACK_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
+const ANOTHER_FACT = 'Would you like another fact?'
 
 // const LaunchRequestHandler = {
 //   canHandle(handlerInput) {
@@ -26,22 +29,53 @@ const STOP_MESSAGE = 'Goodbye!';
 //   },
 // };
 
+// const GetNewFactHandler = {
+//   canHandle(handlerInput) {
+//     const request = handlerInput.requestEnvelope.request;
+//         return request.type === 'LaunchRequest'
+//           || (request.type === 'IntentRequest'
+//             && request.intent.name === 'GetNewFactIntent');
+//   },
+//   handle(handlerInput) {
+//     const speechText = 'Hello World!';
+//
+//     return handlerInput.responseBuilder
+//       .speak(speechText)
+//       .withSimpleCard('Hello World', speechText)
+//       .getResponse();
+//   },
+// };
+
 const GetNewFactHandler = {
   canHandle(handlerInput) {
     const request = handlerInput.requestEnvelope.request;
         return request.type === 'LaunchRequest'
           || (request.type === 'IntentRequest'
             && request.intent.name === 'GetNewFactIntent');
-  },
-  handle(handlerInput) {
-    const speechText = 'Hello World!';
+          },
+        //  handle(handlerInput) {
+            async handle(handlerInput) {
 
-    return handlerInput.responseBuilder
-      .speak(speechText)
-      .withSimpleCard('Hello World', speechText)
-      .getResponse();
-  },
-};
+                var response = await anotherGet();
+                response = JSON.parse(response)
+
+                //const str = (response[0])[0]
+                const factIndex = Math.floor(Math.random() * response.length);
+                response = response[factIndex][0]
+                //const randomFact = response[factIndex];
+                const display = String(response.substr(0,150)+'...')
+                return handlerInput.responseBuilder
+                .speak(response)
+                .withSimpleCard(display)
+                .getResponse();
+
+           }
+        //  }
+        }
+
+
+
+
 
 const HelpHandler = {
   canHandle(handlerInput) {
@@ -115,6 +149,7 @@ const ErrorHandler = {
 };
 
 
+
 const skillBuilder = Alexa.SkillBuilders.custom();
 
 exports.handler = skillBuilder
@@ -129,7 +164,24 @@ exports.handler = skillBuilder
   .addErrorHandlers(ErrorHandler)
   .lambda();
 
+  function anotherGet() {
+    return new Promise(function (resolve, reject) {
+      var url = 'https://script.google.com/macros/s/AKfycbyhiU-SAMGIace7uVXX5L06_-FKpibmkLkyrNO1AZG1SDuJ9KPe/exec'
+        //var url = "http://jsonplaceholder.typicode.com/todos/2"
+        //var url = 'https://reqres.in/api/products/3'
+        requestlib(url, function (error, res, body) {
 
+
+        if (!error && res.statusCode == 200) {
+          resolve(body);
+        } else {
+          reject(error);
+        }
+      });
+    });
+
+  return body
+  }
 
 /*
 const Alexa = require('ask-sdk');
