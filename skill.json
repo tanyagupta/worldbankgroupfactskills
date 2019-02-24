@@ -1,0 +1,62 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
+          "sourceDir": "lambda/us-east-1_aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "http://learnin60seconds.com/tos",
+          "termsOfUseUrl": "http://learnin60seconds.com/tos"
+        }
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "World Bank Group Facts",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dc50/162067e6ec784b37bc344d349a7e795f/APP_ICON?versionId=KrPb0TewNW3BbwOmGurd0nbgiZpLkVb9&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551041146&Signature=htLEwBO%2BlAD9mTQzIRWc1bowHH8%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/878d/4f0c539c923b46348f591158b2e699a9/APP_ICON_LARGE?versionId=GUTOOeGkR2WzamFooRfqbHOjVO6WBpge&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551041146&Signature=yDvhEGyXAGX4Xo%2BvKbBYHG2yaH4%3D",
+          "summary": "World Bank Group Trivia",
+          "description": "This skill tells you some interesting facts about the World Bank Group. It will help improve your general knowledge, or help you prepare you if you expect to be quizzed about the Bank.  Say \"Alexa open World Bank Group Facts\" to get started\"",
+          "examplePhrases": [
+            "Alexa Open World Bank Facts",
+            ""
+          ],
+          "keywords": [
+            "World",
+            "Bank",
+            "IFC",
+            "MIGA",
+            "development",
+          "bank",
+            "loans",
+            "projects",
+            "international",
+            "development",
+            "development"
+          ]
+         }
+
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Start by saying Alexa open world bank facts",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    }
+  }
+
+}
