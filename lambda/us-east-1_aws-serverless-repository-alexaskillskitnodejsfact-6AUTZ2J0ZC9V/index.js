@@ -6,7 +6,7 @@ var requestlib = require('request');
 
 const SKILL_NAME = 'World Bank Facts';
 const GET_FACT_MESSAGE = 'Here\'s your fact: ';
-const HELP_MESSAGE = 'You can say tell me a World Bank fact, or, you can say exit... What can I help you with?';
+const HELP_MESSAGE = 'You can say tell me a World Bank fact, or, you can say stop... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
 const FALLBACK_MESSAGE = 'The World Bank Facts skill can\'t help you with that.  It can help you discover facts about World Bank if you say tell me a World Bank fact. What can I help you with?';
 const FALLBACK_REPROMPT = 'What can I help you with?';
@@ -31,6 +31,7 @@ const GetNewFactHandler = {
                 const display = String(response.substr(0,150)+'...')
                 return handlerInput.responseBuilder
                 .speak(response)
+                .withShouldEndSession(true)
                 .withSimpleCard(display)
                 .getResponse();
 
