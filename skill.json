@@ -31,7 +31,7 @@
           "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dc50/162067e6ec784b37bc344d349a7e795f/APP_ICON?versionId=KrPb0TewNW3BbwOmGurd0nbgiZpLkVb9&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551041146&Signature=htLEwBO%2BlAD9mTQzIRWc1bowHH8%3D",
           "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/878d/4f0c539c923b46348f591158b2e699a9/APP_ICON_LARGE?versionId=GUTOOeGkR2WzamFooRfqbHOjVO6WBpge&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551041146&Signature=yDvhEGyXAGX4Xo%2BvKbBYHG2yaH4%3D",
           "summary": "World Bank Group Trivia",
-          "description": "This skill tells you some interesting facts about the World Bank Group. It will help improve your general knowledge, or help you prepare you if you expect to be quizzed about the Bank.  Say \"Alexa open World Bank Group Facts\" to get started\"",
+          "description": "This skill tells you some interesting facts about the World Bank Group. It will help improve your general knowledge, or help you prepare you if you expect to be quizzed about the Bank.  This skill is best used with Echo or Echo Dot. Say \"Alexa open World Bank Group Facts\" to get started\"",
           "examplePhrases": [
             "Alexa Open World Bank Facts",
             ""
