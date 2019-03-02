@@ -23,7 +23,7 @@
             "codeUri": "lambda/us-east-1_aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
             "functionName": "aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
             "handler": "index.handler",
-            "revisionId": "cd99976d-d3cf-47e2-aad5-91d8db78a1b2",
+            "revisionId": "178b4c3d-12e2-40fd-b881-72bb5284424d",
             "runtime": "nodejs8.10"
           }
         ]

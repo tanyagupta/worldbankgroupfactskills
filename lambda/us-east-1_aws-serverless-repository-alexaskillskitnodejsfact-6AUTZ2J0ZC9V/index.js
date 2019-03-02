@@ -26,7 +26,8 @@ const GetNewFactHandler = {
             async handle(handlerInput) {
               const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
               sessionAttributes.invokeReason = 'another-fact';
-              handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
+
+
 
                 var response = await anotherGet();
                 response = JSON.parse(response)
@@ -34,7 +35,9 @@ const GetNewFactHandler = {
                 ALL_FACTS = response
 
                 const factIndex = Math.floor(Math.random() * response.length);
-                response = response[factIndex][0]
+                response = response[factIndex][0];
+
+                sessionAttributes.lastSpeech = response;
 
                 const display = String(response.substr(0,150)+'...')
 
@@ -62,24 +65,26 @@ const YesHandler = {
 
     const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
     const invokeReason = sessionAttributes.invokeReason;
+
+
     var MSG;
 
     switch (invokeReason) {
       case 'another-fact':
         // return a new fact, if in yes-handler and end session if in no-handler.
-        // var response = await anotherGet();
-        // response = JSON.parse(response)
-        // const factIndex = Math.floor(Math.random() * response.length);
-        // response = responconst factIndex = ;
         const LEN = ALL_FACTS.length
-        MSG = (ALL_FACTS[Math.floor(Math.random() * LEN)])[0]+" Would you like another fact?"
-        //MSG = "one more fact"
+
+
+
+        const FACT = (ALL_FACTS[Math.floor(Math.random() * LEN)])[0]
+        sessionAttributes.lastSpeech = FACT;
+        MSG = FACT+" Would you like another fact?"
 
         break;
 
       default:
 
-        MSG="OOPS"
+        MSG=FALLBACK_MESSAGE
         // handle situation, where someone said yes or no without you asking it.
         break;
     }
@@ -106,7 +111,25 @@ const NoHandler = {
   },
 };
 
+const RepeatHandler = {
+  canHandle(handlerInput) {
+    const request = handlerInput.requestEnvelope.request;
+    return request.type === 'IntentRequest'
+      && request.intent.name === 'AMAZON.RepeatIntent';
+  },
+  handle(handlerInput) {
+    /*code goes here */
+    const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
 
+    const REPEAT = sessionAttributes.lastSpeech
+//const REPEAT = "repeat"
+
+    return handlerInput.responseBuilder
+      .speak(REPEAT+" Would you like another fact?")
+      .reprompt(REPEAT+" Would you like another fact?")
+      .getResponse();
+  },
+};
 
 
 const HelpHandler = {
@@ -191,6 +214,7 @@ exports.handler = skillBuilder
       HelpHandler,
       ExitHandler,
       FallbackHandler,
+      RepeatHandler,
       YesHandler,
       NoHandler,
       SessionEndedRequestHandler
