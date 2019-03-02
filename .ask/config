@@ -10,7 +10,7 @@
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "49321cb4894fde63d8c35c4f06db8a8c"
+            "eTag": "1b0ba650ee9c69d8d8e0de7a4e540b0c"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "lambda/us-east-1_aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
             "functionName": "aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
             "handler": "index.handler",
-            "revisionId": "ad459ce1-b563-42fc-9b6c-3b7aa9230470",
+            "revisionId": "cd99976d-d3cf-47e2-aad5-91d8db78a1b2",
             "runtime": "nodejs8.10"
           }
         ]

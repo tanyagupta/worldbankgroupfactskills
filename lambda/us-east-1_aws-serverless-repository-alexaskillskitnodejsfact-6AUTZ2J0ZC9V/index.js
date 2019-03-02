@@ -13,6 +13,7 @@ const FALLBACK_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 const ANOTHER_FACT = 'Would you like another fact?'
 
+var ALL_FACTS
 
 const GetNewFactHandler = {
   canHandle(handlerInput) {
@@ -23,21 +24,87 @@ const GetNewFactHandler = {
           },
         //  handle(handlerInput) {
             async handle(handlerInput) {
+              const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+              sessionAttributes.invokeReason = 'another-fact';
+              handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
 
                 var response = await anotherGet();
                 response = JSON.parse(response)
+
+                ALL_FACTS = response
+
                 const factIndex = Math.floor(Math.random() * response.length);
                 response = response[factIndex][0]
+
                 const display = String(response.substr(0,150)+'...')
+
                 return handlerInput.responseBuilder
-                .speak(response)
-                .withShouldEndSession(true)
+                .speak(response+" Would you like another fact?")
+                .withShouldEndSession(false)
+            //    .reprompt("Would you like another fact?")
                 .withSimpleCard(display)
                 .getResponse();
+              }
 
-           }
+
         }
 
+
+
+const YesHandler = {
+  canHandle(handlerInput) {
+  const request = handlerInput.requestEnvelope.request;
+    return request.type === 'IntentRequest'
+        && request.intent.name ===  "AMAZON.YesIntent"
+      },
+
+      handle(handlerInput) {
+
+    const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+    const invokeReason = sessionAttributes.invokeReason;
+    var MSG;
+
+    switch (invokeReason) {
+      case 'another-fact':
+        // return a new fact, if in yes-handler and end session if in no-handler.
+        // var response = await anotherGet();
+        // response = JSON.parse(response)
+        // const factIndex = Math.floor(Math.random() * response.length);
+        // response = responconst factIndex = ;
+        const LEN = ALL_FACTS.length
+        MSG = (ALL_FACTS[Math.floor(Math.random() * LEN)])[0]+" Would you like another fact?"
+        //MSG = "one more fact"
+
+        break;
+
+      default:
+
+        MSG="OOPS"
+        // handle situation, where someone said yes or no without you asking it.
+        break;
+    }
+    return handlerInput.responseBuilder
+      .speak(MSG)
+      .reprompt(MSG)
+      .getResponse();
+  },
+};
+
+const NoHandler = {
+  canHandle(handlerInput) {
+  const request = handlerInput.requestEnvelope.request;
+    return request.type === 'IntentRequest'
+        && request.intent.name ===  "AMAZON.NoIntent"
+      },
+
+      handle(handlerInput) {
+
+
+    return handlerInput.responseBuilder
+      .speak(STOP_MESSAGE)
+      .getResponse();
+  },
+};
 
 
 
@@ -124,6 +191,8 @@ exports.handler = skillBuilder
       HelpHandler,
       ExitHandler,
       FallbackHandler,
+      YesHandler,
+      NoHandler,
       SessionEndedRequestHandler
   )
   .addErrorHandlers(ErrorHandler)

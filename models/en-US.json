@@ -20,6 +20,14 @@
           "samples": []
         },
         {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
           "name": "GetNewFactIntent",
           "slots": [],
           "samples": [
@@ -41,6 +49,10 @@
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
           "samples": []
         }
       ],
