@@ -6,7 +6,7 @@
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "3c54fd3b3944a78ba14a32d4d4b6558c"
+          "eTag": "6b13f1d73b3a57453d96a5f9f34872d0"
         },
         "interactionModel": {
           "en-US": {
@@ -23,7 +23,7 @@
             "codeUri": "lambda/us-east-1_aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
             "functionName": "aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
             "handler": "index.handler",
-            "revisionId": "2ce5d0a0-a59a-4fd3-a009-067cad93ed9b",
+            "revisionId": "2c80bd3f-d3e3-4f9b-96a4-602e29d9060e",
             "runtime": "nodejs8.10"
           }
         ]

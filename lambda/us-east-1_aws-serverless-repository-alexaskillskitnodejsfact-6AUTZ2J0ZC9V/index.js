@@ -173,6 +173,7 @@ const ExitHandler = {
   handle(handlerInput) {
     return handlerInput.responseBuilder
       .speak(STOP_MESSAGE)
+      .withShouldEndSession(true)
       .getResponse();
   },
 };
