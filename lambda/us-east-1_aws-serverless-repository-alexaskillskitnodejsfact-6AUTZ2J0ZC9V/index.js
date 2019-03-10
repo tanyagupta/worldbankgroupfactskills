@@ -4,7 +4,7 @@
 const Alexa = require('ask-sdk');
 var requestlib = require('request');
 
-const SKILL_NAME = 'World Bank Facts';
+const SKILL_NAME = 'World Bank Group Facts';
 const GET_FACT_MESSAGE = 'Here\'s your fact: ';
 const HELP_MESSAGE = 'You can say tell me a World Bank fact, or, you can say stop... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
@@ -39,13 +39,13 @@ const GetNewFactHandler = {
 
                 sessionAttributes.lastSpeech = response;
 
-                const display = String(response.substr(0,150)+'...')
+                const display = String(response.substr(0,150))
 
                 return handlerInput.responseBuilder
                 .speak(response+" Would you like another fact?")
                 .withShouldEndSession(false)
             //    .reprompt("Would you like another fact?")
-                .withSimpleCard(display)
+                .withSimpleCard(SKILL_NAME,display)
                 .getResponse();
               }
 
@@ -68,6 +68,7 @@ const YesHandler = {
 
 
     var MSG;
+    var FACT;
 
     switch (invokeReason) {
       case 'another-fact':
@@ -76,7 +77,7 @@ const YesHandler = {
 
 
 
-        const FACT = (ALL_FACTS[Math.floor(Math.random() * LEN)])[0]
+        FACT = (ALL_FACTS[Math.floor(Math.random() * LEN)])[0]
         sessionAttributes.lastSpeech = FACT;
         MSG = FACT+" Would you like another fact?"
 
@@ -90,7 +91,8 @@ const YesHandler = {
     }
     return handlerInput.responseBuilder
       .speak(MSG)
-      .reprompt(MSG)
+      .withShouldEndSession(false)
+      .withSimpleCard(SKILL_NAME,FACT)
       .getResponse();
   },
 };
