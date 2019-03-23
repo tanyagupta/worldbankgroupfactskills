@@ -1,0 +1,888 @@
+----User Says Start----
+User Says: open world bank facts
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "<LaunchRequest>"
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQzMywiaWF0IjoxNTUyNzYyMTMzLCJuYmYiOjE1NTI3NjIxMzMsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.USmF8b9pbVoeipMCfsPTPC97HVkmRWOexivKNTzd5YrzDHGRNjaj4n2b-rNuaaaKdXIwiHe8EFauRJRX8MRPQRQzk5K1jS9_50F837hha-gwg3q5dmdw66oGYXGDZscQLAHlcFu897eka3t2NHKOK6PPjAxkMCF2DzFsUfJrBGZlK8vzYjjj0VKFjLNAvQHL55CARKz_W5RUEQEIV6I-gQ8-F77KVWmxVBrReBbikOWOuUsNh1Fq-OdwUs4f5VXDarz0VuaZrYmWWjWgFJAXcqJglLFqGvTtFELnqvSrGbJ8lOO_KmQ-aN1HIcvQ-zFFajEresy5vCyDdOpqDwoZLA"
+    }
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "amzn1.echo-api.request.96028ed8-4d92-4ffd-bf2f-516300e6825e",
+    "timestamp": "2019-03-16T18:48:53Z",
+    "locale": "en-US",
+    "shouldLinkResultBeReturned": false
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>IDA provides zero-to low-interest loans and grants Would you like another fact?</speak>"
+      },
+      "card": {
+        "type": "Simple",
+        "title": "World Bank Group Facts",
+        "content": "IDA provides zero-to low-interest loans and grants"
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "IDA provides zero-to low-interest loans and grants",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: IDA provides zero-to low-interest loans and grants Would you like another fact?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: yes
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.YesIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "IDA provides zero-to low-interest loans and grants",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQzOSwiaWF0IjoxNTUyNzYyMTM5LCJuYmYiOjE1NTI3NjIxMzksInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.hOgr8pePp4ZyzefYPsSEqp7bM2aR1_uUoF_CCXF82SeK6Bta300sLJUpKJKk7Ro6chIADwI-yrM211Dtb7NW8xpd4mO4-ELC3OlOCShfetFHvpTU1z2P-I9TTJl7UG3JJQTTi8CUpl8m4fsZGv8BUQIJMr6oqHsdyUWQEc6IOwATrBjt5p4lIesE8sE2uJrPMaJq6OaxTd32ymfV15VhW59jIyTPMnDP7IDsHEFbOWM8qnY61T-M_LRdDxGFFw5hEmoXXTj3nH6zlL4R5tKyf7mIhHM6bR5iD_w1SwbAatI9i_MWAhEDvGog-3pM82fJBdnU4qrpn_RvMXb1OKL0Mg"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.a02c302e-df40-46ee-96a8-6c1d694bb2c0",
+    "timestamp": "2019-03-16T18:48:59Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.YesIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>Since 1956, IFC has leveraged $2.6 billion in capital to deliver more than $265 billion in financing for businesses in developing countries. Would you like another fact?</speak>"
+      },
+      "card": {
+        "type": "Simple",
+        "title": "World Bank Group Facts",
+        "content": "Since 1956, IFC has leveraged $2.6 billion in capital to deliver more than $265 billion in financing for businesses in developing countries."
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "Since 1956, IFC has leveraged $2.6 billion in capital to deliver more than $265 billion in financing for businesses in developing countries.",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: Since 1956, IFC has leveraged $2.6 billion in capital to deliver more than $265 billion in financing for businesses in developing countries. Would you like another fact?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: yes
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.YesIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "Since 1956, IFC has leveraged $2.6 billion in capital to deliver more than $265 billion in financing for businesses in developing countries.",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ0MiwiaWF0IjoxNTUyNzYyMTQyLCJuYmYiOjE1NTI3NjIxNDIsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.GqVCLTDQUMCOcfMrgZfnnP34xUPwS9CAsa2ugn3OryL8X4mAfXJKwEp4EXVUVe0rbXSiQ3Cruc_EOVflSlhvBcBgwUH7aoQIoZ1S5XSj0NskuxFdh9OxqVssIXY5fAIhfFtwLa5aIztJqhfT6XRaFx02SdxB1FNPx78t1x08mTNCvX0Tdapn4p0pGvtzCm3_4SFpRo2OMTRf1ZglvGtK8pUH-JspuHIDtevSTIi5H241nw_8juPYGtn3mL7BY1R8g3hb7mfHDA5N-nBgHAEs3rujuZJjSysj-a6ci0M7B3rqERaI-VsCoxKONkZ0XJZUntbtkOaiVMwTXUdZZlmnjA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.bb033b16-c1d9-4f4e-8b3e-3b627419dec4",
+    "timestamp": "2019-03-16T18:49:02Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.YesIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>IDA provides interest-free loans to the poorest countries, and is funded largely by contributions from donor member governments Would you like another fact?</speak>"
+      },
+      "card": {
+        "type": "Simple",
+        "title": "World Bank Group Facts",
+        "content": "IDA provides interest-free loans to the poorest countries, and is funded largely by contributions from donor member governments"
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "IDA provides interest-free loans to the poorest countries, and is funded largely by contributions from donor member governments",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: IDA provides interest-free loans to the poorest countries, and is funded largely by contributions from donor member governments Would you like another fact?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: yes
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.YesIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "IDA provides interest-free loans to the poorest countries, and is funded largely by contributions from donor member governments",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ0NywiaWF0IjoxNTUyNzYyMTQ3LCJuYmYiOjE1NTI3NjIxNDcsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.Zc6QWlXLTXizCRRq7xeI37QZwTOXLXtD3Thm49QZgwVEKawM_hBUiefTQp_qnHCx9v7BhreNabrYeqtVJfOCg_S5vQkzdNF7c_QTUNbsUnjiujLB9p6_O2H_1XZHg32RCh_yWz_G-uH7DSwXVMloGoma-QPeaguRuKhhfL8A6h9BPaIHg3ICBe0p0xr40WlAFd6l-hYu8p4OkMeFS6chGmPcJ_5P7Dfv6NylCBraElDYw1Sng8xgZi4-pPFUDrzBEaiDbGDBjD5kjAcO3O06HJJN207mNyVCjWwU9-sCxtRrfbVd4ZMI7id3CirsPOOjw5N-wZBj4fNaeaEfgLZExg"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.a135c7ea-886f-4509-ad9f-0daca1e36b80",
+    "timestamp": "2019-03-16T18:49:07Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.YesIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>ICSID settles investment disputes Would you like another fact?</speak>"
+      },
+      "card": {
+        "type": "Simple",
+        "title": "World Bank Group Facts",
+        "content": "ICSID settles investment disputes"
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "ICSID settles investment disputes",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: ICSID settles investment disputes Would you like another fact?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: dhdhdh
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.FallbackIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "ICSID settles investment disputes",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ1MSwiaWF0IjoxNTUyNzYyMTUxLCJuYmYiOjE1NTI3NjIxNTEsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.F7KSa2QaVgJlGSoiBR0kNq893LKz4pdFuADGD2KeZCNxQMUaMGFYAJ_3CAoLp-Frf5HzxYGltaAU6T-Xb7XiYXT2PpFb8iGkRoilF5Zkech0YhcavSYkthvSkkwh-pWDRyIscx7MuKKPZb4hiuBkOiO8bqenDOlvfsqpIHSNN_NxoWsD7-O18h09yus-6VzUJAikNnyRsHevVtEn9yTtSmivFC8BYKHux3e38Bk1X_U49jObI4NooWKcSAuqhzViJuK_zU98gDHMuSkarSUBL1reGK7ddsevO9TnDU21tPN_5OW_pqha4vVTG4_tkrZvffpadsjpfwZ_DUrxvbAjSQ"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.33c4e75e-a960-4723-aac4-990e83ec4d54",
+    "timestamp": "2019-03-16T18:49:11Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.FallbackIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>The World Bank Facts skill can't help you with that.  It can help you discover facts about World Bank if you say tell me a World Bank fact. What can I help you with?</speak>"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "type": "SSML",
+          "ssml": "<speak>What can I help you with?</speak>"
+        }
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "ICSID settles investment disputes",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: The World Bank Facts skill can't help you with that.  It can help you discover facts about World Bank if you say tell me a World Bank fact. What can I help you with?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: fjfjfj
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.FallbackIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "ICSID settles investment disputes",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ1NSwiaWF0IjoxNTUyNzYyMTU1LCJuYmYiOjE1NTI3NjIxNTUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.CRxnZNxhhw9Eobj5ScSK7ToRmZSPEKSq19hPPrtKW0IBQXDgsaPJFLsBmTCa5FCn5q9N2AU5syCp_USAreYLtBorjqB48pcPuIEzC5qxRJ5g1DAZZ3PjFlCDqVPnzGd1iYICqrzMY4bfhQPK21bp9aJqEvG3x4qRwJlkMV7NXt_DEwKGUTshs5SQaP-G_gdi-zkxr7pndYkqwsLsWSQgWZCcHAj5mbrYm5XTsfGSuWj1Ie6JEzHc57SOfeoaWm77hB8TfKmmkk6o_Mi5--JMFQ6UxdMRaFyc1Z6-H2GHE071nlmhnFKu8M2shOqUmiMNOLDVODJGi_-ntxAkgKxUFA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.7e86201d-dc9d-4c7d-81b7-857aada2ae93",
+    "timestamp": "2019-03-16T18:49:15Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.FallbackIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>The World Bank Facts skill can't help you with that.  It can help you discover facts about World Bank if you say tell me a World Bank fact. What can I help you with?</speak>"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "type": "SSML",
+          "ssml": "<speak>What can I help you with?</speak>"
+        }
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "ICSID settles investment disputes",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: The World Bank Facts skill can't help you with that.  It can help you discover facts about World Bank if you say tell me a World Bank fact. What can I help you with?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: fact
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "GetNewFactIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "ICSID settles investment disputes",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ2MCwiaWF0IjoxNTUyNzYyMTYwLCJuYmYiOjE1NTI3NjIxNjAsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.MWwZtkFZzUQqgfjIN2n-IFmNaJnnoe48d_2Ghs5PDBeNKrzhDFCEHgmGjw33M1WRR11NTFKmB-hiaTVnZtqoiWWnvYB0gEd9Edl31_YLJmHNIgQQe0JHK9-GdCvyBx9Wt-4DU2fIl1fe6Jn6___UPqYeby4bSjwaYcptfOaLLn6eGOgzhGbVHbgslloDEO5BmwfSOwNRt6KSNOdB_ebJ76H_DmKPOtyBo4iYiBZwBdRnt5K_kg02fyDCGbLsVufmwfh0gsQ2_BQJjOsgfJtp16-uijSdD6KCcJHaNSEJNBBidf22fWw1aREgLo0zy6r1GOorELIT7UEkRoEzbVNiWA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.21f27abb-8491-48ec-9ba4-62aed6296d03",
+    "timestamp": "2019-03-16T18:49:20Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "GetNewFactIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>The World Bank requires sovereign immunity which waives holders from legal liability from countries it deals with  Would you like another fact?</speak>"
+      },
+      "card": {
+        "type": "Simple",
+        "title": "World Bank Group Facts",
+        "content": "The World Bank requires sovereign immunity which waives holders from legal liability from countries it deals with "
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "The World Bank requires sovereign immunity which waives holders from legal liability from countries it deals with ",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: The World Bank requires sovereign immunity which waives holders from legal liability from countries it deals with  Would you like another fact?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: yes
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.YesIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "The World Bank requires sovereign immunity which waives holders from legal liability from countries it deals with ",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ2NywiaWF0IjoxNTUyNzYyMTY3LCJuYmYiOjE1NTI3NjIxNjcsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.kSN3w9_tdEaO3X4n_rW9lmmJuQ_WhyQsa1fTHI-BvJfRHNj40L4wc6AtzBnXEPFduY6u7aRvcjZt2TSsIn5Y_ocaIFxFyYrLifcIQ-aIB_BwyrKGO1zPRuc_NXwJMJNhAMxNcLrIiMd3Z6NvMuMI77GL_EyV9GSZATpxQj6X-NkjnrcBtFXx45Imt4Aoy8VboBjyl-I_R0Nw_c9Q_WHFYThBGSbH0KODKlXacwNWa-rOiMfTi00Prj6U60azPCC4tr7M8C6cN7PQtZaTbefIJQe5UzY0iiMXNTd257g-QQhV9i9skmbzuaVzjQVhDxVod5Jhlcgm08Ev07a_1jAYyA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.6cadadb1-ae8a-489e-8509-c277943d015f",
+    "timestamp": "2019-03-16T18:49:27Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.YesIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement.  Would you like another fact?</speak>"
+      },
+      "card": {
+        "type": "Simple",
+        "title": "World Bank Group Facts",
+        "content": "All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement. "
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement. ",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement.  Would you like another fact?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: repeat
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.RepeatIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement. ",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ3MSwiaWF0IjoxNTUyNzYyMTcxLCJuYmYiOjE1NTI3NjIxNzEsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.YiqSoVW-9bdjJnTQuRGgTpHlAEVpdyfOwnXV4ta6lEeH2HUav6qUNVHXVoMyauZZxinmvXqz_YB3E3YgIGtTILKyhqrpavkCmdrEaDUKxvsinNamyBvHsnVzX4u56IEev6jPtr-TkETLvb7bQEtrXQO3yoH-B3UfesNB8GInkYcU-7xlR6Jug1qg-0XO0dFuhQR1dzyda-gdraaK9lZdYarnR5K1_PiwFYp2kJ5VBtarRSQPtFbMx6C1eVro7p33XDqNP4XNTSQbJZM0qRtp5_lJijhdVQFFx10WWOEde9RwiwOvocdegtjRdi411tesSw_AVqZoJk5lqrO3KLysFA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.c34f3181-2e13-4d5e-8fe9-e8d8c9294f21",
+    "timestamp": "2019-03-16T18:49:31Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.RepeatIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement.  Would you like another fact?</speak>"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "type": "SSML",
+          "ssml": "<speak>All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement.  Would you like another fact?</speak>"
+        }
+      },
+      "shouldEndSession": false,
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement. ",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement.  Would you like another fact?
+----Alexa Responds End----
+
+----User Says Start----
+User Says: no
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "AMAZON.NoIntent",
+    "confirmationStatus": "NONE",
+    "slots": {}
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.1c0794b9-b97b-495a-8d7a-125cf6e44405",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+    },
+    "attributes": {
+      "lastSpeech": "All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement. ",
+      "invokeReason": "another-fact"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.7c144e33-2d1f-42af-bd64-7359c7231fa5"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGVV23HP7VYWB4RISERBDXZV66F665TNKCW6KHFAEPO3PV6CWIDFH774DSM76YL7MYU2WEDF32IBDEBWXOQOERD6JCPBZ2UIHUV3SWOJFD3WX6GEMSLVY5IVV44Z2ZC4PA5XVGC6TZY772K4DS2RHTXCGY3QPAFG7K6KHZPQEJI75RQV7ZTORFFHWC75IB5BOC76WKHIBVUFXNI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGKL5MRLAQJ4LFLMGHQBP2D2BK6OXQIC5DSSVOJ6HTDRB4LZ5QUAGHBHOL3WVJU3NIOTEPJ5ZKZEGQJJUMR6IJTLJVNOHM6AMMTLQSVCERJ4XSWCIJ32ZMDCOOQMU7GBA3RYWNY3FYKUOMNKRX4SE2JHTUSPRRMS5NTLRS2MTOYFLS6UVUE4E",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdjMTQ0ZTMzLTJkMWYtNDJhZi1iZDY0LTczNTljNzIzMWZhNSIsImV4cCI6MTU1Mjc2MjQ3OCwiaWF0IjoxNTUyNzYyMTc4LCJuYmYiOjE1NTI3NjIxNzgsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTDVNUkxBUUo0TEZMTUdIUUJQMkQyQks2T1hRSUM1RFNTVk9KNkhURFJCNExaNVFVQUdIQkhPTDNXVkpVM05JT1RFUEo1WktaRUdRSkpVTVI2SUpUTEpWTk9ITTZBTU1UTFFTVkNFUko0WFNXQ0lKMzJaTURDT09RTVU3R0JBM1JZV05ZM0ZZS1VPTU5LUlg0U0UySkhUVVNQUlJNUzVOVExSUzJNVE9ZRkxTNlVWVUU0RSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHVlYyM0hQN1ZZV0I0UklTRVJCRFhaVjY2RjY2NVROS0NXNktIRkFFUE8zUFY2Q1dJREZINzc0RFNNNzZZTDdNWVUyV0VERjMySUJERUJXWE9RT0VSRDZKQ1BCWjJVSUhVVjNTV09KRkQzV1g2R0VNU0xWWTVJVlY0NFoyWkM0UEE1WFZHQzZUWlk3NzJLNERTMlJIVFhDR1kzUVBBRkc3SzZLSFpQUUVKSTc1UlFWN1pUT1JGRkhXQzc1SUI1Qk9DNzZXS0hJQlZVRlhOSSJ9fQ.NF3PziQ_VlhomW8u6aL9oaFmdmV7AHFk7guXJbT2KeWH8L4ucWoqLC6SM7IE6mtyTQ0rF8W6RPt_z3EY8qqmtJIYqFNXwYE-mZgYQbjb66qKp_8i08iCh43JoZr1nspqaQVmqFDHCBTsFkKgzipguFRB5TSgGdzpcNERUp7z28BCecI9jQQQPugdJNmtSdgIBgSEaLTHDplMbljnouYpNfbYWQGqycTZQrh_rKveWCGwzRJ_MG_IdaC5AUDp8p7ORkBMoSYVwxpq_SuGQXMdB86ZIlh6ZNHjULjsNPB6HzLuMk5iwTv2OsARKL54nprP-MyetTFwq5LG3ilE4f2xUQ"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.202709ec-bb73-4d03-a823-613373fffe95",
+    "timestamp": "2019-03-16T18:49:38Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.NoIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {
+  "body": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>Goodbye!</speak>"
+      },
+      "type": "_DEFAULT_RESPONSE"
+    },
+    "sessionAttributes": {
+      "lastSpeech": "All powers of the Bank are vested in the Boards of Governors, the Bank's senior decision-making body according to the Articles of Agreement. ",
+      "invokeReason": "another-fact"
+    },
+    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+  }
+}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: Goodbye!
+----Alexa Responds End----
+

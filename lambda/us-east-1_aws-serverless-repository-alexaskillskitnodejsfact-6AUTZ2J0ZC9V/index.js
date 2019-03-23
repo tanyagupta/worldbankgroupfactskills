@@ -27,8 +27,6 @@ const GetNewFactHandler = {
               const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
               sessionAttributes.invokeReason = 'another-fact';
 
-
-
                 var response = await anotherGet();
                 response = JSON.parse(response)
 
@@ -73,15 +71,44 @@ const YesHandler = {
     switch (invokeReason) {
       case 'another-fact':
         // return a new fact, if in yes-handler and end session if in no-handler.
+
         const LEN = ALL_FACTS.length
-
-
-
+        //FACT = ALL_FACTS.splice(1,1)
+        //FACT = FACT[0]
         FACT = (ALL_FACTS[Math.floor(Math.random() * LEN)])[0]
+        var nums = ALL_FACTS;
+        //FACT = nums.slice(1,1)
+        //FACT = FACT[0]
+
+        //FACT = nums.pop()[0]
+
+        //FACT = ALL_FACTS.slice(0, Math.floor(Math.random() * LEN))[0]
+        //const factIndex = Math.floor(Math.random() * items.length);
+        //FACT = ALL_FACTS.splice(ALL_FACTS[Math.floor(Math.random() * LEN)],1)[0]
+
+        //const LEN = ALL_FACTS.length;
+
+      //  FACT = ALL_FACTS.splice(1,1)[0]
+
+
         sessionAttributes.lastSpeech = FACT;
         MSG = FACT+" Would you like another fact?"
-
         break;
+
+      // if (ALL_FACTS.length>0){
+          // const LEN = ALL_FACTS.length
+          // FACT = (ALL_FACTS.splice(Math.floor(Math.random() * LEN),1))[0]
+          // MSG = FACT+" Would you like another fact?"
+           //console.log(new_set)
+      //  }
+      //  else{
+          // return handlerInput.responseBuilder
+          //   .speak("You have now heard all the facts")
+          //   .withShouldEndSession(true)
+          //   .withSimpleCard(SKILL_NAME,"You have now heard all the facts")
+          //   .getResponse();
+        //}
+        //break;
 
       default:
 
@@ -228,6 +255,7 @@ exports.handler = skillBuilder
   function anotherGet() {
     return new Promise(function (resolve, reject) {
       var url = 'https://script.google.com/macros/s/AKfycbyhiU-SAMGIace7uVXX5L06_-FKpibmkLkyrNO1AZG1SDuJ9KPe/exec'
+    //  var url = 'https://script.google.com/macros/s/AKfycbxDldtSHoZoYMBct9BrmYohyFO10JdOeAaMoO3F0e9HSrOZQTEJ/exec'
         //var url = "http://jsonplaceholder.typicode.com/todos/2"
         //var url = 'https://reqres.in/api/products/3'
         requestlib(url, function (error, res, body) {
