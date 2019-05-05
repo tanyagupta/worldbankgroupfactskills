@@ -14,7 +14,7 @@ const STOP_MESSAGE = 'Goodbye!';
 const ANOTHER_FACT = 'Would you like another movie?';
 const LAST_FACT = "You have now finished hearing about all the critics choice movies for today";
 
-var factIndex = 0
+//var factIndex = 0
 var ALL_FACTS;
 var max;
 
@@ -32,12 +32,12 @@ const GetNewFactHandler = {
         sessionAttributes.invokeReason = 'another-fact';
         var result = await anotherGet();
 
-        var parsed_response = JSON.parse(result);
-        //var response = JSON.parse(result);
-        var response_array = parsed_response.slice(0,4);
+        var response_array = JSON.parse(result);
+
+        const factIndex = Math.floor(Math.random() * response_array.length);
 
         ALL_FACTS = response_array;
-        max = response_array.length
+        //max = response_array.length
 
         const movie_name = ALL_FACTS[factIndex][0];
         const review_headline = ALL_FACTS[factIndex][1];
@@ -46,12 +46,11 @@ const GetNewFactHandler = {
         const review_date = ALL_FACTS[factIndex][4];
 
 
-        var response_string = "A critic's choice move is "+movie_name+", reviewed by "+reviewer_name+". Here's a snippet of the review: "+review_snippet;
+        var response_string = "A current movie is "+movie_name+", reviewed by "+reviewer_name+". Here's a snippet of the review: "+review_snippet;
         var response_clean = response_string.replace(/\&/ig, 'and')
         sessionAttributes.lastSpeech = response_clean;
-        factIndex = factIndex+1
 
-        var MSG = response_clean+" Would you like to hear about another Critics Choice movie?"
+        var MSG = response_clean+" Would you like to hear about another movie?"
 
         var display = String(response_clean.substr(0,150))
 
@@ -81,32 +80,27 @@ const YesHandler = {
             // return a new fact, if in yes-handler and end session if in no-handler.
 
 
-            if (factIndex<max){
+          //  if (factIndex<max){
+              const factIndex = Math.floor(Math.random() * ALL_FACTS.length);
               const movie_name = ALL_FACTS[factIndex][0];
               const review_headline = ALL_FACTS[factIndex][1];
               const reviewer_name = ALL_FACTS[factIndex][3];
               const review_snippet = ALL_FACTS[factIndex][2];
               const review_date = ALL_FACTS[factIndex][4];
 
-              var response_string = "A critic's choice move is "+movie_name+", reviewed by "+reviewer_name+". Here's a snippet of the review: "+review_snippet;
+              var response_string = "A current movie is "+movie_name+", reviewed by "+reviewer_name+". Here's a snippet of the review: "+review_snippet;
               var response_clean = response_string.replace(/\&/ig, 'and')
               sessionAttributes.lastSpeech = response_clean;
               var display = String(response_clean.substr(0,150))
-              var MSG = response_clean+" Would you like to hear about another Critics Choice movie?"
-              factIndex = factIndex+1;
+
+              var MSG = response_clean+" Would you like to hear about another movie?"
 
               return handlerInput.responseBuilder
                 .speak(MSG)
                 .withShouldEndSession(false)
                 .withSimpleCard(SKILL_NAME,display)
                 .getResponse();
-            }
-            else{
-              return handlerInput.responseBuilder
-                 .speak(LAST_FACT)
-                 .withShouldEndSession(true)
-                 .getResponse();
-            }
+
             break;
 
             default:
