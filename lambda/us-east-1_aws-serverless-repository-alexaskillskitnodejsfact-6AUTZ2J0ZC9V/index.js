@@ -11,8 +11,8 @@ const HELP_REPROMPT = 'What can I help you with?';
 const FALLBACK_MESSAGE = 'The New York Times Movies skill can\'t help you with that.  It can help you discover hot new movies if you say tell me a New York Times Movie. What can I help you with?';
 const FALLBACK_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
-const ANOTHER_FACT = 'Would you like another movie?'
-const LAST_FACT = "You have now finished hearing about all the critics choice movies for today"
+const ANOTHER_FACT = 'Would you like another movie?';
+const LAST_FACT = "You have now finished hearing about all the critics choice movies for today";
 
 var factIndex = 0
 var ALL_FACTS;
@@ -110,7 +110,6 @@ const YesHandler = {
             break;
 
             default:
-
               MSG=FALLBACK_MESSAGE
               // handle situation, where someone said yes or no without you asking it.
               break;
@@ -133,7 +132,7 @@ const NoHandler = {
       .getResponse();
   },
 };
-*/
+
 const RepeatHandler = {
   canHandle(handlerInput) {
     const request = handlerInput.requestEnvelope.request;
