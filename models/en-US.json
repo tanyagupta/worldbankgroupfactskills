@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "world bank facts",
+      "invocationName": "new york times movies",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -32,22 +32,22 @@
           "slots": [],
           "samples": [
             "a fact",
-            "a World Bank Group fact",
-            "a World Bank fact",
+            "a New York Times Movie fact",
+            "a New York Times Movie fact",
             "tell me a fact",
-            "tell me a World Bank fact",
-            "tell me a World Bank Group fact",
+            "tell me a New York Times Movie fact",
+            "tell me a New York Times Movie fact",
             "give me a fact",
-            "give me a World Bank fact",
-            "give me a World Bank Group fact",
+            "give me a New York Times Movie fact",
+            "give me a New York Times Movie fact",
             "tell me trivia",
-            "tell me a World Bank trivia",
-            "tell me a World Bank Group trivia",
+            "tell me a New York Times Movie trivia",
+            "tell me a New York Times Movie trivia",
             "give me trivia",
-            "give me a World Bank trivia",
+            "give me a New York Times Movie trivia",
             "give me some information",
-            "give me some World Bank information",
-            "give me some World Bank Group information",
+            "give me some New York Times Movie information",
+            "give me some New York Times Movie information",
             "tell me something",
             "give me something"
           ]
