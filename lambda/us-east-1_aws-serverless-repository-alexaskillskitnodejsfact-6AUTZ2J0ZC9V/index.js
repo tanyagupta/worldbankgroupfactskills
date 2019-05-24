@@ -50,7 +50,7 @@ const GetNewFactHandler = {
         var response_clean = response_string.replace(/\&/ig, 'and')
         sessionAttributes.lastSpeech = response_clean;
 
-        var MSG = response_clean+" Would you like to hear about another movie?"
+        var MSG = response_clean+" Would you like to hear another movie review?"
 
         var display = String(response_clean.substr(0,150))
 
@@ -93,7 +93,7 @@ const YesHandler = {
               sessionAttributes.lastSpeech = response_clean;
               var display = String(response_clean.substr(0,150))
 
-              var MSG = response_clean+" Would you like to hear about another movie?"
+              var MSG = response_clean+" Would you like to hear another movie review ?"
 
               return handlerInput.responseBuilder
                 .speak(MSG)

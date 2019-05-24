@@ -3,7 +3,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:975742344863:function:aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V:PROD3",
+          "uri": "arn:aws:lambda:us-east-1:975742344863:function:aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V",
           "sourceDir": "lambda/us-east-1_aws-serverless-repository-alexaskillskitnodejsfact-6AUTZ2J0ZC9V"
         },
         "interfaces": []
