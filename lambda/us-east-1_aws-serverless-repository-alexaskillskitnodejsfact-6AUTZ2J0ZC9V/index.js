@@ -17,8 +17,114 @@ const LAST_FACT = "You have now finished hearing about all the critics choice mo
 //var factIndex = 0
 var ALL_FACTS;
 var max;
+var factIndex;
+const months = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
 
 
+const GetNewFactHandler = {
+  canHandle(handlerInput) {
+    const request = handlerInput.requestEnvelope.request;
+        return request.type === 'LaunchRequest'
+          || (request.type === 'IntentRequest'
+            && request.intent.name === 'GetNewFactIntent');
+          },
+
+      async handle(handlerInput) {
+        const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+        //sessionAttributes.invokeReason = 'another-fact';
+        var result = await anotherGet();
+
+        var response_array = JSON.parse(result);
+
+
+        ALL_FACTS = response_array
+        //ALL_FACTS = response_array.slice(0,2);
+        max = Number(ALL_FACTS.length)-1;
+        factIndex = 0
+
+        const movie_name = ALL_FACTS[factIndex][0];
+        const review_headline = ALL_FACTS[factIndex][1];
+        const reviewer_name = ALL_FACTS[factIndex][3];
+        const review_snippet = ALL_FACTS[factIndex][2];
+        //const opening_date = ALL_FACTS[factIndex][4].length>0 ? ALL_FACTS[factIndex][4] : ""
+        const opening_date = ALL_FACTS[factIndex][4].length>0 ? ", released on "+new Date(ALL_FACTS[factIndex][4]).getDate()+" "+months[new Date(ALL_FACTS[factIndex][4]).getMonth()]+" "+" "+new Date(ALL_FACTS[factIndex][4]).getFullYear() : "";
+        const smallImageUrl = ALL_FACTS[factIndex][11];
+        const critics_choice = ALL_FACTS[factIndex][5] === 0 ? "": " and is a critic's choice";
+
+        var response_string = "A current movie is "+movie_name+opening_date+" and reviewed by "+reviewer_name+critics_choice+". Here's a snippet of the review: "+review_snippet;
+
+        var response_clean = response_string.replace(/\&/ig, 'and')
+        sessionAttributes.lastSpeech = response_clean;
+
+        var MSG = response_clean+" Would you like to hear another movie review?"
+
+        var display = String(response_clean.substr(0,150))
+
+      return handlerInput.responseBuilder
+        .speak(MSG)
+        .withShouldEndSession(false)
+        .withStandardCard(SKILL_NAME,display,smallImageUrl)
+//        .withSimpleCard(SKILL_NAME,display)
+        .getResponse();
+      }
+    }
+
+    const YesHandler = {
+      canHandle(handlerInput) {
+      const request = handlerInput.requestEnvelope.request;
+        return request.type === 'IntentRequest'
+            && request.intent.name ===  "AMAZON.YesIntent"
+          },
+
+          handle(handlerInput) {
+
+            const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+            //const invokeReason = sessionAttributes.invokeReason;
+
+
+                if (factIndex<max){
+                  factIndex=factIndex+1
+                  const movie_name = ALL_FACTS[factIndex][0];
+                  const review_headline = ALL_FACTS[factIndex][1];
+                  const reviewer_name = ALL_FACTS[factIndex][3];
+                  const review_snippet = ALL_FACTS[factIndex][2];
+                  const opening_date = ALL_FACTS[factIndex][4].length>0 ? ", released on "+new Date(ALL_FACTS[factIndex][4]).getDate()+" "+months[new Date(ALL_FACTS[factIndex][4]).getMonth()]+" "+" "+new Date(ALL_FACTS[factIndex][4]).getFullYear() : "";
+                  //const opening_date = ALL_FACTS[factIndex][4].length>0 ? ALL_FACTS[factIndex][4] : ""
+                  const smallImageUrl = ALL_FACTS[factIndex][11];
+                  const critics_choice = ALL_FACTS[factIndex][5] === 0 ? "": " and is a critic's choice";
+
+                  var response_string = "A current movie is "+movie_name+opening_date+" and reviewed by "+reviewer_name+critics_choice+". Here's a snippet of the review: "+review_snippet;
+                  var response_clean = response_string.replace(/\&/ig, 'and')
+                  sessionAttributes.lastSpeech = response_clean;
+                  var display = String(response_clean.substr(0,150));
+
+
+                  var MSG = response_clean+" Would you like to hear another movie review ?"
+
+                  return handlerInput.responseBuilder
+                    .speak(MSG)
+                    .withShouldEndSession(false)
+                    //.withSimpleCard(SKILL_NAME,display)
+                    .withStandardCard(SKILL_NAME,display,smallImageUrl)
+                    .getResponse();
+                  }
+                  else{
+                    return handlerInput.responseBuilder
+                      .speak(LAST_FACT)
+                      .withShouldEndSession(true)
+                      .withSimpleCard(SKILL_NAME,LAST_FACT)
+                      .getResponse();
+                  }
+
+              },
+            };
+
+
+
+
+/*
 const GetNewFactHandler = {
   canHandle(handlerInput) {
     const request = handlerInput.requestEnvelope.request;
@@ -61,8 +167,8 @@ const GetNewFactHandler = {
         .getResponse();
       }
     }
-
-
+*/
+/*
 const YesHandler = {
   canHandle(handlerInput) {
   const request = handlerInput.requestEnvelope.request;
@@ -110,7 +216,7 @@ const YesHandler = {
             }
           },
         };
-
+*/
 const NoHandler = {
   canHandle(handlerInput) {
   const request = handlerInput.requestEnvelope.request;
